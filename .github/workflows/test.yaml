@@ -1,4 +1,4 @@
-name:  Containerized CI-CD 
+name: CD
 on:
   push: 
     branches: [master]
@@ -6,7 +6,7 @@ jobs:
   build: 
     runs-on: self-hosted
    
-    steps: 
-      — uses: actions/checkout@v2 
-      — run: | 
-          ls -al
+    steps:
+      - uses: actions/checkout@v2
+      - run: ls -al
+      
