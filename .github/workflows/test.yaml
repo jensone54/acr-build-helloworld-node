@@ -1,4 +1,4 @@
-name: My CI-CD 
+name:  Containerized CI-CD 
 on:
   push: 
     branches: [master]
